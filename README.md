@@ -10,10 +10,10 @@ highlights industry best practices in data engineering and analytics.
 
 ### Building the Data warehouse (Data engineering)
 
-## Objective
+#### Objective
 Develop a modern data warehouse using SQL Server to consolidate Sales data, enabling analytical reporting and informed decision making.
 
-## Specifications
+#### Specifications
 **Data Source** : Import data from two sources systems (ERP & CRM) Provided as CSV Files
 **Data Quality** : Cleanse and resolve data quality issues prior to analysis 
 **Integration** : Combine both sources into a single user-friendly data model Designed for analytical queries
@@ -22,9 +22,9 @@ Develop a modern data warehouse using SQL Server to consolidate Sales data, enab
 
 ----
 
-## BI: Analytics and Reporting (Data Analytics)
+### BI: Analytics and Reporting (Data Analytics)
 
-## Objective
+#### Objective
 Develop SQL – based analytics to deliver detailed insights into :
 - **Customer Behavior**
 - **Product Performance**
