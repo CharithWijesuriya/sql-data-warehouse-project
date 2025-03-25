@@ -8,7 +8,7 @@ tables and fact tables for specific business metrics.
 
 ### 1.gold.dim_customers
   **.Purpose:** Stores customer details enriched with demographic and geographic data.
-  **.Columnns:**
+  **.Columns:**
   | **Column Name** | **Data Type** | **Description** |
   |-----------------|---------------|-----------------|
   | customer_key | INT | Surrogate key uniquely identifying each customer record in the dimension table. |
@@ -25,9 +25,10 @@ tables and fact tables for specific business metrics.
   ***
 
   ### 2.gold.dim_products
-   **.Purpose:** Provides information about the products and their attributes
+   **.Purpose:** Provides information about the products and their attributes.
    **.Columns:** 
    | **Column Name** | **Data Type** | **Description** |
+   |-----------------|---------------|-----------------|
    | product_key | INT | Surrogate key uniquely identifying each product record in the product dimension table. |
    | product_id | INT | A unique identifier assigned to the product for internal tracking and referencing. | 
    | product_number | NVARCHAR(50) | A structured alphanumeric code representing the product, often used for categorization or inventory. |
@@ -46,6 +47,7 @@ tables and fact tables for specific business metrics.
     **.Purpose:** Stores transactional sales data for analytical purposes.
     **.Columns:**
     | **Column Name** | **Data Type** | **Description** |
+    |-----------------|---------------|-----------------|
     | order_number | NVARCHAR(50) | A unique alphanumeric identifier for each sales order (e.g., 'SO54496'). |
     | product-key | INT | Surrogate key linking the order to the product dimension table. |
     | customer_key | INT | Surrogate key linking the order to the customer dimension table. |
